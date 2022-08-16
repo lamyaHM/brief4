@@ -1,19 +1,21 @@
 *{
-    padding: 0%;
+    padding: 0;
+    margin: 0;
 }
 
 .header{
-display: inline;
+display: flex;
 flex-direction: row;
-justify-content:space-around ;
-flex-wrap: wrap;
-margin-top: 5px;
-background-image: url("Merged59.png");
-
+justify-content:space-between;
+/* flex-wrap: wrap;  */
+background: url("Merged59.png") no-repeat;
 }
-
+ a{
+    text-decoration-line: none;
+    padding: 1em;
+ }
 .menu{
-    margin-left: 80%;
+    padding: 2rem;
 }
 .section1{
 text-align: center;
