@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+}
+
+.header{
+display: inline;
+flex-direction: row;
+justify-content:space-around ;
+flex-wrap: wrap;
+margin-top: 5px;
+}
+
+.menu{
+    margin-left: 80%;
+}
+.section1{
+text-align: center;
+background-image: url("Enchiffres.png");
+background-size: cover;
+padding-bottom: 3px;
+}
+
+.icons1{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.arabe{
+    border: 1px solid orange;
+    padding: .5em;
+    border-radius: 1em;
+}
